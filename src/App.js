@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from "./mount-fiji/Navbar";
+import Hero from "./air-bnb/Hero";
+import Card from "./air-bnb/Card";
+import AllCards from "./air-bnb/AllCards";
+import AllJoke from "./joke/AllJoke";
+import Main from "./mount-fiji/Main";
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Main/>
+      {/* <Hero />
+      <AllCards />
+      <AllJoke/> */}
+    </>
   );
 }
 

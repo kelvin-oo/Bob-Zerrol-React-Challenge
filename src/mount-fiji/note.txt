@@ -1,0 +1,4 @@
+1. observed my data
+2. Created a card component
+3. Went to my file, mapped over the Data and passed it as props into my card component
+4. recieved the props in my card and just used it.
