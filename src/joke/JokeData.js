@@ -5,7 +5,7 @@ export const JokeData = [
     },
     {
         joke: 'joke 2',
-        punch: 'punch 2'
+        // punch: 'punch 2'
     },
     {
         joke: 'joke 3',
@@ -13,7 +13,7 @@ export const JokeData = [
     },
     {
         joke: 'joke 4',
-        punch: 'punch 4'
+        // punch: 'punch 4'
     },
     {
         joke: 'joke 5',

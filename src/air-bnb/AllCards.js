@@ -7,14 +7,14 @@ function AllCards() {
         score='26'
         title= 'ola'
         price= '120'
-        image='../images/20211219_030934.jpg'
+        // image='../images/20211219_030934.jpg'
         location='usa'
       />
       <Card
         score='26'
         title= 'ola'
         price= '120'
-        image='../src/images/20211225_143040.jpg'
+        // image='../src/images/20211225_143040.jpg'
         location='usa'
       />
     </div>

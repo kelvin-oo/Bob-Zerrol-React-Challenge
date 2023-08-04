@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../images/20211219_030934.jpg'
+// import image from '../images/20211219_030934.jpg'
 export default function Card({score, title, price, image, location}) {
   return (
       <article

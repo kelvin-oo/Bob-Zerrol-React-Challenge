@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/20211219_030934.jpg'
+
 export default function Card({item}) {
   console.log(item)
   return (
