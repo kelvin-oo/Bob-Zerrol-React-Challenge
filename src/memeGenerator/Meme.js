@@ -18,18 +18,23 @@ export default function Meme() {
         })
     }
     const handleTopChange = (e) => {
+        const {name, value} = e.target
         setMeme(prev => {
-            return{...prev, [e.target.name]: e.target.value}
+            return{...prev, [name]: value}
         })
         console.log(e.target.name)
     }
 
-    
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        console.log(e)
+        
+    }
   return (
       <div style={{
           position: 'absolute'
       }}>
-          <form action="">
+          <form action="" onSubmit={handleSubmit}>
               <label htmlFor="">
                   Top Text
                   <input name='topText' value={meme.topText} onChange={handleTopChange} type="text" placeholder='enter the top text'/>
@@ -38,7 +43,8 @@ export default function Meme() {
                   bottom Text
                   <input name='bootomText' value={meme.bootomText} onChange={handleTopChange} type="text" placeholder='enter the bottom text'/>
               </label>
-              <button onClick={getMeme} type='submit'>generatee meme</button>
+              <h2 onClick={getMeme} >Generate Meme</h2>
+              <button >Submit</button>
           </form>
           <img src={meme.link} style={{
               width: '400px'

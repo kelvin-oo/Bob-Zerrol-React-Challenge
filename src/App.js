@@ -10,11 +10,14 @@ import Counter from "./memeGenerator/Counter";
 import Going from "./memeGenerator/Going";
 import Boxes from "./boxes/Boxes";
 import Messages from "./joke/Messages";
+import Form from "./forms/Form";
+import Track from "./data/Track";
 function App() {
   
   return (
     <>
       <Navbar />
+      <Track/>
       {/* <Messages/> */}
       {/* <Boxes/> */}
       {/* <Going/> */}
@@ -22,6 +25,7 @@ function App() {
       {/* <Hero /> */}
       {/* <AllCards /> */}
       {/* <AllJoke/> */}
+      <Form/>
       <Meme />
       {/* <Counter/> */}
       {/* <Item/> */}
